@@ -1,0 +1,202 @@
+@media (min-width:1000px){
+    .container{
+        display: flex;
+    }
+    .container p{
+        font-size: 30px;
+    }
+    .container img{
+        display: none;
+    }
+    .navbar{
+        position: absolute;
+    background-color:transparent;
+    width: 590px;
+    right: 140px;
+    top: auto;
+    height: 17vh;
+    transition: 0; 
+    }
+    .navbar nav ul{
+        display: flex;
+        text-align: center;
+        list-style: none;
+    }
+    .navbar nav ul li {
+        margin-left: 43px;
+    }
+    .navbar nav ul li a{
+        font-size: 20px;
+    }
+    .navbar nav ul li a:hover{
+        color: orange;
+        
+    }
+    /* }...............................................page1....................................................... */
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.pic img{
+    height: 280px;
+    width: 300px;
+    margin: 180px 10px 18px 83px;
+    border-radius: 13%;
+    border: solid black 2px;
+}
+.name{
+    text-align: left;
+    margin-top: 240px;
+}
+.name h5{
+    font-size: 20px;
+}
+.name h1{
+    font-size: 61px;
+}
+.name h3{
+    font-size: 20px;
+}
+.name button{
+    margin-top: 40px;
+    margin-left: 177px;
+    font-size: 20px;
+}
+.social{
+    margin-top: 20%;
+    display: inline-block;
+}
+/* .......................................................page2................................................................ */
+.container3{
+    height: 100vh;
+}
+.about h5{
+    margin-top: 50px;
+    font-size: 25px;
+}
+.about h2{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.about p{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.about1 h4{
+    font-size: 20px;
+}
+.about1 h4 img{
+    height: 20px;
+    width: 20px;
+}
+.about1 h4 span{
+    font-size: 20px;
+}
+.about2 h3{
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.pi{
+    padding: 0px 160px;
+}
+.pi p img{
+    height: 100px;
+    width: 100px;
+}
+.pi p{
+    font-size: 20px;
+}
+/* .............................................page3.................................................... */
+.container4{
+    height: 70vh;
+}
+.area h5{
+    font-size: 25px;
+}
+.area h2{
+    font-size: 50px;
+}
+.skills{
+    display: flex;
+    padding: 0 80px;
+    text-align: center;
+}
+.it{
+    margin-top: 0;
+}
+.mech, .it{
+    margin-top: 30px;
+}
+.mech h4, .it h4{
+    font-size: 25px;
+}
+.mech li, .it li{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mech li progress, .it li progress{
+    height: 10px;
+    width: 180px;
+}
+/* ..................................................page4................................................ */
+.container5{
+    height: 100vh;
+}
+.area1 h5{
+    font-size: 25px;
+}
+.area1 h2{
+    font-size: 50px;
+}
+.education h4, .experience h4 {
+    font-size: 30px;
+}
+.education h4 img, .experience h4 img {
+    height: 25px;
+    width: 50px;
+}
+.education li, .experience li{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.education p, .experience p{
+    font-size: 15px;
+    margin-top: 6px;
+}
+/* ...........................page5..................................... */
+.container6{
+    height: 100vh;
+}
+.area2 h5{
+    font-size: 25px;
+}
+.area2 h2{
+    font-size: 50px;
+}
+.years button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+.sliderbox {
+    width: 77%;
+    height: 70vh;
+}
+.sol h5{
+    font-size: 40px;
+}
+.sol p{
+    font-size: 16px;
+}
+.cb a{
+    top: 25px;
+    font-size: 17px;
+}
+
+
+
+
+
+}
